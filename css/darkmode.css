@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    transition: background 0.5s linear, color 0.5s linear;
+}
+
+body.dark  {
+    background-color: black;
+    color: white;
+}
+
+
+.botao-mudar {
+    position: fixed;
+    right: 10px;
+}
+
+label {
+    background-color: black;
+    border-radius: 40%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.5s linear;
+}
+
+body.dark  label {
+    background-color: white;
+}
+
+.clicar {
+    visibility: hidden;
+}
